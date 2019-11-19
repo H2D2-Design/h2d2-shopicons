@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Your_Icons">
+	<path d="M10,26c0,5.514,4.486,10,10,10h18v-4H20c-3.309,0-6-2.691-6-6v-2l24,0l6-18H4v4h6V26z"/>
+	<circle cx="18" cy="42" r="2"/>
+	<circle cx="30" cy="42" r="2"/>
+</g>
+</svg>
