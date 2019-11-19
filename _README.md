@@ -22,7 +22,7 @@ hallo@h2d2.de
 Thanks,
 
 H2D2
-  ~ Design for
-  ~ E-Motional 
-  ~ E-Commerce
-  ~ www.h2d2.de
+Design for
+E-Motional 
+E-Commerce
+www.h2d2.de
