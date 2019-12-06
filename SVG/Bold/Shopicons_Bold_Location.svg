@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="Your_Icons">
+<g id="Shopicon">
 	<path d="M24,44c0,0,14-12,14-26c0-7.732-6.268-14-14-14s-14,6.268-14,14C10,32,24,44,24,44z M24,9c4.963,0,9,4.037,9,9
 		c0,7.631-5.36,14.881-8.99,18.916C20.379,32.863,15,25.579,15,18C15,13.037,19.037,9,24,9z"/>
 	<circle cx="24" cy="18" r="2"/>

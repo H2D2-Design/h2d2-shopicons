@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="Your_Icons">
-	<path d="M23,40l7,4v-4h10V4H14c-3.309,0-6,2.691-6,6v24c0,3.309,2.691,6,6,6h2v4L23,40z M23,35.393l-3,1.714V32h6l0,5.107
-		L23,35.393z M36,36h-6v-4h6V36z M14,8h22v20H14c-0.702,0-1.373,0.128-2,0.35V10C12,8.897,12.897,8,14,8z M14,36
-		c-1.103,0-2-0.897-2-2s0.897-2,2-2h2v4H14z"/>
+<g id="Shopicon">
+	<path d="M23,40l7,4v-4h10V4H14c-3.309,0-6,2.691-6,6v24c0,3.309,2.691,6,6,6h2v4L23,40z M26,37.107l-3-1.714l-3,1.714V32h6
+		L26,37.107z M36,36h-6v-4h6V36z M12,10c0-1.103,0.897-2,2-2h22v20H14c-0.702,0-1.373,0.128-2,0.35V10z M14,36c-1.103,0-2-0.897-2-2
+		s0.897-2,2-2h2v4H14z"/>
 </g>
 </svg>

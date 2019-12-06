@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="Your_Icons">
+<g id="Shopicon">
 	<circle cx="34" cy="29" r="2"/>
-	<path d="M40,14h-8V4L4,14v26c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V18C44,15.8,42.2,14,40,14z M28,9.676V14H15.893L28,9.676z M40,40
-		H8V18h32V40z"/>
+	<path d="M4,40c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V18c0-2.2-1.8-4-4-4h-8V4L4,14V40z M28,9.676V14H15.893L28,9.676z M8,18h32v22H8
+		V18z"/>
 </g>
 </svg>

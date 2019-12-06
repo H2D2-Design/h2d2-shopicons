@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<g id="Your_Icons">
+<g id="Shopicon">
 	<path d="M8,32c0,2.2,1.8,4,4,4h2c0,2.209,1.791,4,4,4s4-1.791,4-4h7c0,2.209,1.791,4,4,4c2.209,0,4-1.791,4-4h3V24l-4-8h-4v-3.885
-		c0-2.2-1.8-4-4-4H12c-2.2,0-4,1.8-4,4V32z M33.528,20L36,24.944V32h-4V20H33.528z M12,12.115h16V32H12V12.115z"/>
+		c0-2.2-1.8-4-4-4H12c-2.2,0-4,1.8-4,4V32z M32,20h1.528L36,24.944V32h-4V20z M12,12.115h16V32H12V12.115z"/>
 </g>
 </svg>
