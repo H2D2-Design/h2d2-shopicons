@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Shopicon">
+	<polygon points="17.467,36.693 9.004,24 17.467,11.307 13.307,8.533 2.996,24 13.307,39.467 	"/>
+	<polygon points="30.533,11.307 38.996,24 30.533,36.693 34.693,39.467 45.004,24 34.693,8.533 	"/>
+	<rect x="21.5" y="14.792" transform="matrix(0.8944 -0.4472 0.4472 0.8944 -8.1991 13.2661)" width="5" height="18.417"/>
+</g>
+</svg>
