@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px"
+	 height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Shopicon">
+	<path d="M36,26.828l-3,3l-3-3l-3,3l-3-3l-3,3l-3-3l-3,3l-3-3l-3,3l-0.92-0.92C8.837,38.013,15.042,44,24,44
+		s15.163-5.987,15.92-15.092L39,29.828L36,26.828z"/>
+	<path d="M12,21.172l3,3l3-3l3,3l3-3l3,3l3-3l3,3l3-3l3,3l0.757-0.757C38.474,13.636,32.157,4,24,4S9.526,13.636,8.243,23.415
+		L9,24.172L12,21.172z"/>
+</g>
+</svg>
