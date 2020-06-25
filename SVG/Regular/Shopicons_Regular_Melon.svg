@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Guidelines">
+	<g id="material_x5F_system_x5F_icon_x5F_border">
+	</g>
+	<path d="M4,14v2c0,11.028,8.972,20,20,20s20-8.972,20-20v-2H4z M24,32c-8.146,0-14.888-6.118-15.876-14h31.752
+		C38.888,25.882,32.146,32,24,32z"/>
+	<rect x="22" y="23" width="4" height="6"/>
+	<rect x="14" y="21" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -11.2843 18.7574)" width="5.999" height="4"/>
+	<rect x="29" y="20" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -7.1838 28.6569)" width="4" height="5.999"/>
+</g>
+<g id="Shopicon">
+</g>
+</svg>

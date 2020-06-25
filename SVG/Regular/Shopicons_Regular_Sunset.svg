@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Guidelines">
+	<g id="material_x5F_system_x5F_icon_x5F_border">
+	</g>
+	<path d="M24,34c5.514,0,10-4.486,10-10s-4.486-10-10-10c-5.514,0-10,4.486-10,10S18.486,34,24,34z M30,24c0,3.309-2.691,6-6,6
+		s-6-2.691-6-6s2.691-6,6-6S30,20.691,30,24z"/>
+	<rect x="22" y="4" width="4" height="6"/>
+	<rect x="4" y="22" width="6" height="4"/>
+	<rect x="38" y="22" width="6" height="4"/>
+	<rect x="13.5" y="6.278" transform="matrix(0.866 -0.5 0.5 0.866 -2.5623 8.9928)" width="4" height="6"/>
+	<rect x="35.722" y="13.5" transform="matrix(0.866 -0.5 0.5 0.866 -2.5623 21.4372)" width="6" height="4.001"/>
+	<rect x="7.277" y="12.5" transform="matrix(0.5 -0.866 0.866 0.5 -8.7847 15.7846)" width="4.001" height="6"/>
+	<rect x="29.5" y="7.277" transform="matrix(0.4999 -0.8661 0.8661 0.4999 8.2178 32.7868)" width="5.999" height="4.001"/>
+	<path d="M11,37H7c0,3.859,3.14,7,7,7c1.957,0,3.729-0.807,5-2.105C20.271,43.193,22.043,44,24,44c1.957,0,3.729-0.807,5-2.105
+		C30.271,43.193,32.043,44,34,44c3.859,0,7-3.141,7-7h-4c0,1.654-1.346,3-3,3s-3-1.346-3-3h-4c0,1.654-1.346,3-3,3s-3-1.346-3-3h-4
+		c0,1.654-1.346,3-3,3S11,38.654,11,37z"/>
+</g>
+<g id="Shopicon">
+</g>
+</svg>

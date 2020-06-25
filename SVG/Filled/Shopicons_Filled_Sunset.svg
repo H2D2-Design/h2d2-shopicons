@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<g id="Shopicon">
+	<circle cx="24" cy="24" r="10"/>
+	<rect x="22" y="4" width="4" height="6"/>
+	<rect x="4" y="22" width="6" height="4"/>
+	<rect x="38" y="22" width="6" height="4"/>
+	<rect x="13.5" y="6.278" transform="matrix(0.866 -0.5 0.5 0.866 -2.5623 8.9928)" width="4" height="6"/>
+	<rect x="35.722" y="13.5" transform="matrix(0.866 -0.5 0.5 0.866 -2.5623 21.4372)" width="6" height="4.001"/>
+	<polygon points="11.875,17 12.875,15.268 7.679,12.268 5.679,15.732 10.875,18.732 	"/>
+	<polygon points="32.732,12.875 35.732,7.68 34,6.679 32.268,5.68 29.268,10.875 31,11.875 	"/>
+	<path d="M11,37H7c0,3.859,3.14,7,7,7c1.957,0,3.729-0.807,5-2.105C20.271,43.193,22.043,44,24,44c1.957,0,3.729-0.807,5-2.105
+		C30.271,43.193,32.043,44,34,44c3.859,0,7-3.141,7-7h-4c0,1.654-1.346,3-3,3s-3-1.346-3-3h-4c0,1.654-1.346,3-3,3s-3-1.346-3-3h-4
+		c0,1.654-1.346,3-3,3S11,38.654,11,37z"/>
+</g>
+</svg>
