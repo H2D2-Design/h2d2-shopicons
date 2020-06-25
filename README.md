@@ -17,6 +17,8 @@ hallo@h2d2.de
 
 • Share your work with this icon set and tag us on instagram @h2d2_design #h2d2_design
 
+• More infos about this icon set: https://www.h2d2.de/en/downloads/the-essential-ecommerce-iconset/
+
 ---
 
 Thanks,
