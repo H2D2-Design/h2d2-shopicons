@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 48 48" width="48"><path d="M0 0h48v48H0z" fill="none"/>
 <g id="Shopicon">
 	<path d="M30,5c-1.308,0-2.411,0.846-3.247,2h-5.507C20.411,5.846,19.308,5,18,5s-2.411,0.846-3.247,2H9v36h30V7h-5.753
 		C32.411,5.846,31.308,5,30,5z M11,19h26v22H11V19z M37,17H11V9h26V17z"/>
