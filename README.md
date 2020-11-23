@@ -39,5 +39,5 @@ www.h2d2.de
 ---
 
 <p align="center">
-  <img width="15%" src="https://www.h2d2.de/wp-content/themes/h2d2/media/icons/android-chrome-512x512.png">
+  <img width="15%" src="https://www.h2d2.de/wp-content/themes/h2d2/media/icons/h2d2-logo-2020-mark.svg">
 </p>
