@@ -4,6 +4,12 @@ Thanks for downloading!
 
 ---
 
+<p align="center">
+  <img width="80%" src="https://www.h2d2.de/wp-content/uploads/2020/11/shopicons-github-grafik.svg">
+</p>
+
+---
+
 NOTE: 
 Our icons are free for everyone to use. 
 Please don’t try to sell them.
@@ -25,6 +31,13 @@ Thanks,
 
 H2D2
 Design for
-E-Motional 
+Emotional 
 E-Commerce
 www.h2d2.de
+
+
+---
+
+<p align="center">
+  <img width="80%" src="https://www.h2d2.de/wp-content/themes/h2d2/media/icons/android-chrome-512x512.png">
+</p>
