@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg"  height="48" viewBox="0 0 48 48" width="48"><path d="M0 0h48v48H0z" fill="none"/>
+<g id="Shopicon">
+	<rect x="7.5" y="7.5" width="5" height="5"/>
+	<rect x="7.5" y="19.5" width="5" height="5"/>
+	<rect x="7.5" y="31.5" width="5" height="5"/>
+	<rect x="35.5" y="7.5" width="5" height="5"/>
+	<rect x="35.5" y="19.5" width="5" height="5"/>
+	<rect x="35.5" y="31.5" width="5" height="5"/>
+	<rect x="21.5" y="13.5" width="5" height="5"/>
+	<rect x="21.5" y="25.5" width="5" height="5"/>
+	<rect x="21.5" y="37.5" width="5" height="5"/>
+</g>
+</svg>
