@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-</style>
-<path class="st0" d="M0,0h48v48H0V0z"/>
-<g id="Shopicon">
-	<path d="M37.5,44.5v-35h-5v-6h-17v6h-5v35H37.5z M15.5,39.5v-25h5v-6h7v6h5v25H15.5z"/>
-	<rect x="17.5" y="24.5" width="13" height="13"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
+  <title>Shopicons_Bold_BatteryHalf</title>
+  <path d="M0,0H48V48H0Z" transform="translate(0 0)" style="fill: none"/>
+  <g>
+    <path d="M37.5,44.5V9.5h-5v-6h-17v6h-5v35Zm-22-5v-25h5v-6h7v6h5v25Z" transform="translate(0 0)"/>
+    <rect x="17.5" y="24.5" width="13" height="13"/>
+  </g>
 </svg>
