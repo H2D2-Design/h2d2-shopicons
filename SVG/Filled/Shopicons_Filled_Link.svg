@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="48px"
-	 height="48px" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+</style>
+<path class="st0" d="M0,0h48v48H0V0z"/>
 <g id="Guidelines">
 	<g id="material_x5F_system_x5F_icon_x5F_border">
 	</g>
 </g>
 <g id="Shopicon">
-	<path d="M16,36h4v-4h-4c-4.411,0-8-3.589-8-8s3.589-8,8-8h4v-4h-4C9.383,12,4,17.383,4,24S9.383,36,16,36z"/>
-	<path d="M32,12h-4v4h4c4.411,0,8,3.589,8,8s-3.589,8-8,8h-4v4h4c6.617,0,12-5.383,12-12S38.617,12,32,12z"/>
+	<path d="M16,36h4v-4h-4c-4.4,0-8-3.6-8-8s3.6-8,8-8h4v-4h-4C9.4,12,4,17.4,4,24S9.4,36,16,36z"/>
+	<path d="M32,12h-4v4h4c4.4,0,8,3.6,8,8s-3.6,8-8,8h-4v4h4c6.6,0,12-5.4,12-12S38.6,12,32,12z"/>
 	<rect x="16" y="22" width="16" height="4"/>
 </g>
 </svg>

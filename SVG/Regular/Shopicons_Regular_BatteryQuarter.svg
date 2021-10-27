@@ -1,6 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg"  height="48" viewBox="0 0 48 48" width="48"><path d="M0 0h48v48H0z" fill="none"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+</style>
+<path class="st0" d="M0,0h48v48H0V0z"/>
 <g id="Shopicon">
-	<path d="M10,37h34V11H10v5H4v16h6V37z M8,28v-8h6v-5h26v18H14v-5H8z"/>
-	<rect x="31" y="18" width="6" height="12"/>
+	<path d="M11,10v34h26V10h-5V4H16v6H11z M20,8h8v6h5v26H15V14h5V8z"/>
+	<rect x="18" y="31" width="12" height="6"/>
 </g>
 </svg>
