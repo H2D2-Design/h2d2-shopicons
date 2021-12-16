@@ -30,9 +30,9 @@ hallo@h2d2.de
 Thanks,
 
 H2D2
-Design for
-Emotional 
-E-Commerce
+Your UX and UI
+Agency in
+Berlin
 www.h2d2.de
 
 
