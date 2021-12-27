@@ -1,33 +1,29 @@
-import inlineSvg from 'rollup-plugin-inline-svg';
+import html from "@rollup/plugin-html";
+import serve from "rollup-plugin-serve";
+import svgo from "rollup-plugin-svgo";
+import { uglify } from "rollup-plugin-uglify";
+import { generateFiles } from "./src/index.js";
+
+const { entryFiles, webComponentNames } = generateFiles();
+
+const watchMode = process.env.ROLLUP_WATCH === "true";
 
 export default {
-  input: "web-component/index.js",
-  output: "dist/output.js",
+  input: { index: "src/html.js", ...entryFiles },
+  output: {
+    dir: "dist",
+    format: "es",
+  },
   plugins: [
-    inlineSvg({
-      // Removes specified tags and its children. You can specify tags by setting removingTags query array.
-      // default: false
-      removeTags: false,
-
-      // warning: this won't work unless you specify removeTags: true
-      // default: ['title', 'desc', 'defs', 'style']
-      removingTags: ['title', 'desc', 'defs', 'style'],
-
-      // warns about present tags, ex: ['desc', 'defs', 'style']
-      // default: []
-      warnTags: [],
-
-      // Removes `width` and `height` attributes from <svg>.
-      // default: true
-      removeSVGTagAttrs: true,
-
-      // Removes attributes from inside the <svg>.
-      // default: []
-      removingTagAttrs: [],
-
-      // Warns to console about attributes from inside the <svg>.
-      // default: []
-      warnTagAttrs: []
-    })
+    html({
+      title: "H2D2 Shopicons",
+      meta: [
+        { charset: "utf-8" },
+        { name: "icons", content: webComponentNames },
+      ],
+    }),
+    svgo(),
+    uglify(),
+    watchMode ? serve({ open: true, contentBase: "dist" }) : undefined,
   ],
-}
+};
