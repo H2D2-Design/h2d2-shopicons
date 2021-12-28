@@ -1,20 +1,20 @@
-import html from "@rollup/plugin-html";
 import serve from "rollup-plugin-serve";
+import html from "@rollup/plugin-html";
 import svgo from "rollup-plugin-svgo";
 import { uglify } from "rollup-plugin-uglify";
-import { generateFiles } from "./src/index.js";
-
-const { entryFiles, webComponentNames } = generateFiles();
+import { entryIconFiles, webComponentNames } from "./dist/meta.json";
 
 const watchMode = process.env.ROLLUP_WATCH === "true";
 
 export default {
-  input: { index: "src/html.js", ...entryFiles },
+  input: { index: "src/html.js", ...entryIconFiles },
   output: {
-    dir: "dist",
+    dir: "es",
     format: "es",
   },
   plugins: [
+    svgo(),
+    uglify(),
     html({
       title: "H2D2 Shopicons",
       meta: [
@@ -22,8 +22,6 @@ export default {
         { name: "icons", content: webComponentNames },
       ],
     }),
-    svgo(),
-    uglify(),
-    watchMode ? serve({ open: true, contentBase: "dist" }) : undefined,
+    watchMode ? serve({ open: true, contentBase: "es" }) : undefined,
   ],
 };

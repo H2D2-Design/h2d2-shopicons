@@ -10,15 +10,16 @@ function iconTemplate(style, icon) {
   const iconNormalized = normalize(icon);
   const iconLower = iconNormalized.toLowerCase();
   const className = `${iconNormalized}${style}`;
-  const webComponentName = `h2d2-shopicon-${iconLower}-${styleLower}`;
+  const webComponentName = `shopicon-${iconLower}-${styleLower}`;
 
   const content = `/* GENERATED FILE - DON'T EDIT MANUALLY */
-import svg from "../../SVG/${style}/Shopicons_${style}_${icon}.svg"
+import svg from "../../SVG/${style}/Shopicons_${style}_${icon}.svg";
+import "../../src/base.js";
 
 class ${className} extends HTMLElement {
   constructor() {
     super();
-    this.setAttribute("style", "height: 48px; width: 48px; display: block;");
+    this.setAttribute("data-shopicon", true);
     this.innerHTML = svg;
   }
 }
@@ -28,7 +29,7 @@ window.customElements.define("${webComponentName}", ${className})
   return { content, webComponentName };
 }
 
-function styleTemplate(icons) {
+function bundleTemplate(icons) {
   return `/* GENERATED FILE - DON'T EDIT MANUALLY */
 ${icons.map((icon) => `import "./${icon}.js";`).join("\n")}
 `;
@@ -43,28 +44,29 @@ function ensureDirectoryExistence(dirname) {
 
 function writeIconFile(style, icon) {
   const file = `${style.toLowerCase()}/${normalize(icon).toLowerCase()}`;
-  const filepath = path.resolve(__dirname, `icon/${file}.js`);
+  const filepath = path.resolve(`dist/${file}.js`);
   const { content, webComponentName } = iconTemplate(style, icon);
   ensureDirectoryExistence(path.dirname(filepath));
   fs.writeFileSync(filepath, content, "utf-8");
   return { file, filepath, webComponentName };
 }
 
-function writeStyleFile(style, icons) {
+function writeBundleFile(style, icons) {
   const file = style.toLowerCase();
-  const filepath = path.resolve(__dirname, `icon/${file}.js`);
-  const content = styleTemplate(icons);
+  const filepath = path.resolve(`dist/${file}.js`);
+  const content = bundleTemplate(icons);
   ensureDirectoryExistence(path.dirname(filepath));
   fs.writeFileSync(filepath, content, "utf-8");
   return { file, filepath };
 }
 
 export function generateFiles() {
-  const entryFiles = {};
+  const entryBundleFiles = {};
+  const entryIconFiles = {};
   const webComponentNames = [];
   ["Bold", "Filled", "Light", "Regular"].forEach((style) => {
     const styleFiles = [];
-    fs.readdirSync(path.resolve(__dirname, `SVG/${style}`))
+    fs.readdirSync(path.resolve(`SVG/${style}`))
       .filter((file) => file.startsWith("Shopicons"))
       .map((file) => {
         const [, , iconWithExt] = file.split("_");
@@ -73,12 +75,20 @@ export function generateFiles() {
       })
       .forEach((icon) => {
         const { file, filepath, webComponentName } = writeIconFile(style, icon);
-        //entryFiles[file] = filepath;
+        entryIconFiles[file] = filepath;
         webComponentNames.push(webComponentName);
         styleFiles.push(file);
       });
-    const { file, filepath } = writeStyleFile(style, styleFiles);
-    entryFiles[file] = filepath;
+    const { file, filepath } = writeBundleFile(style, styleFiles);
+    entryBundleFiles[file] = filepath;
   });
-  return { entryFiles, webComponentNames };
+  return { entryBundleFiles, entryIconFiles, webComponentNames };
 }
+
+const meta = generateFiles();
+
+fs.writeFileSync(
+  path.resolve("dist/meta.json"),
+  JSON.stringify(meta, " ", " "),
+  "utf-8"
+);
