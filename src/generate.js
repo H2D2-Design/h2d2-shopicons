@@ -17,8 +17,7 @@ import svg from "../../SVG/${style}/Shopicons_${style}_${icon}.svg";
 import "../../src/base.js";
 
 class ${className} extends HTMLElement {
-  constructor() {
-    super();
+  connectedCallback() {
     this.setAttribute("data-shopicon", true);
     this.innerHTML = svg;
   }
