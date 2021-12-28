@@ -2,7 +2,6 @@
 Essentials E-Commerce icon pack for free. Designed by H2D2.
 Thanks for downloading!
 
----
 
 <p align="center">
   <img width="80%" src="https://www.h2d2.de/wp-content/uploads/2020/11/shopicons-github-grafik.svg">
@@ -124,18 +123,47 @@ Available under [Apache license version 2.0](http://www.apache.org/licenses/LICE
 
 • More infos about this icon set: https://www.h2d2.de/en/downloads/the-essential-ecommerce-iconset/
 
----
+## Contribution & development
 
-Thanks,
+### Development
+
+The web components are derived at build time from the icons in the SVG folder. Adding, removing or altering a SVG icon will automatically propagate to the web components. This is done on every push to GitHub via Actions. You can also test the generation locally.
+
+Installing build environment
+```
+npm install
+```
+_Note: You should have node v16 installed._
+
+Generating Web Components (`/dist`) and optimized bundles (`/umd`, `/es`)
+```
+npm run build
+```
+
+There is demo page which loads all individual icons and automatically shows them in different variations (styles, colors, sizes) in your browser.
+```
+npm start
+```
+
+### Publising
+
+Publishing is also done by the GitHub Actions pipeline in this repository. Therefore you must increment the package version and push the changes.
+
+The below code would increment the last digit of the version string (`1.0.2` > `1.0.3`) and push to GitHub. This triggers the creation of a new NPM package an also makes the new release available via the jsdelivr CDN.
+```
+npm version patch
+git push
+```
+
+
+
+## Thanks 💚
 
 H2D2
 Your UX and UI
 Agency in
 Berlin
 [www.h2d2.de](https://www.h2d2.de)
-
-
----
 
 <p align="center">
   <img width="15%" src="https://www.h2d2.de/wp-content/themes/h2d2/media/icons/h2d2-logo-2020-mark.svg">
