@@ -1,0 +1,29 @@
+{
+  "name": "@h2d2/shopicons",
+  "version": "1.0.4",
+  "description": "Essentials E-Commerce icon pack for free. Designed by H2D2. Thanks for downloading!",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/generate.js; rollup -c rollup.config.bundles.js; rollup -c rollup.config.icons.js",
+    "start": "node src/generate.js; rollup -c rollup.config.icons.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H2D2-Design/h2d2-shopicons.git"
+  },
+  "type": "module",
+  "author": "naltatis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/H2D2-Design/h2d2-shopicons/issues"
+  },
+  "homepage": "https://github.com/H2D2-Design/h2d2-shopicons#readme",
+  "devDependencies": {
+    "@rollup/plugin-html": "^0.2.4",
+    "prettier": "^2.5.1",
+    "rollup": "^2.62.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-svgo": "^1.1.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
