@@ -145,7 +145,7 @@ There is demo page which loads all individual icons and automatically shows them
 npm start
 ```
 
-### Publising
+### Publishing
 
 Publishing is also done by the GitHub Actions pipeline in this repository. Therefore you must increment the package version and push the changes.
 
