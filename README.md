@@ -1,7 +1,7 @@
 # H2D2-Shopicons
+
 Essentials E-Commerce icon pack for free. Designed by H2D2.
 Thanks for downloading!
-
 
 <p align="center">
   <img width="80%" src="https://www.h2d2.de/wp-content/uploads/2020/11/shopicons-github-grafik.svg">
@@ -37,14 +37,14 @@ _Caution: Web Components always need a separate closing-tag as seen above. Writi
 The icons come in four sizes which can be controlled via the `size` attribute on the web component.
 
 ```html
-<!-- tiny   (24px) -->
-<shopicon-search-regular size="tiny"></shopicon-search-regular>
+<!-- tiny   (24px) DEFAULT -->
+<shopicon-search-regular size="s"></shopicon-search-regular>
 <!-- small  (32px) -->
-<shopicon-search-regular size="small"></shopicon-search-regular>
-<!-- medium (48px) DEFAULT -->
-<shopicon-search-regular size="medium"></shopicon-search-regular>
-<!-- large  (65px) -->
-<shopicon-search-regular size="large"></shopicon-search-regular>
+<shopicon-search-regular size="m"></shopicon-search-regular>
+<!-- medium (48px) -->
+<shopicon-search-regular size="l"></shopicon-search-regular>
+<!-- large  (64px) -->
+<shopicon-search-regular size="xl"></shopicon-search-regular>
 ```
 
 **Colors**
@@ -57,8 +57,12 @@ Icons adopt the font color of the surrounding HTML. This way it's easy to fit th
   SEARCH
 </a>
 <style>
-  a { color: darkblue; }
-  a:hover { color: hotpink; }
+  a {
+    color: darkblue;
+  }
+  a:hover {
+    color: hotpink;
+  }
 </style>
 ```
 
@@ -96,9 +100,9 @@ npm install @h2d2/shopicons
 Install the package and import the icons that you want to use in your JavaScript.
 
 ```javascript
-import "@h2d2/shopicons/es/bold/star"
-import "@h2d2/shopicons/es/bold/heart"
-import "@h2d2/shopicons/es/filled/heart"
+import "@h2d2/shopicons/es/bold/star";
+import "@h2d2/shopicons/es/bold/heart";
+import "@h2d2/shopicons/es/filled/heart";
 
 const html = `
   ...
@@ -113,7 +117,6 @@ This way only the icons you specify will end up in your final JavaScript bundle.
 Our icons are free for everyone to use.
 Please don’t try to sell them.
 Available under [Apache license version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
-
 
 ## Feedback & sharing
 
@@ -130,17 +133,21 @@ Available under [Apache license version 2.0](http://www.apache.org/licenses/LICE
 The web components are derived at build time from the icons in the SVG folder. Adding, removing or altering a SVG icon will automatically propagate to the web components. This is done on every push to GitHub via Actions. You can also test the generation locally.
 
 Installing build environment
+
 ```
 npm install
 ```
+
 _Note: You should have node v16 installed._
 
 Generating Web Components (`/dist`) and optimized bundles (`/umd`, `/es`)
+
 ```
 npm run build
 ```
 
 There is demo page which loads all individual icons and automatically shows them in different variations (styles, colors, sizes) in your browser.
+
 ```
 npm start
 ```
@@ -150,12 +157,11 @@ npm start
 Publishing is also done by the GitHub Actions pipeline in this repository. Therefore you must increment the package version and push the changes.
 
 The below code would increment the last digit of the version string (`1.0.2` > `1.0.3`) and push to GitHub. This triggers the creation of a new NPM package an also makes the new release available via the jsdelivr CDN.
+
 ```
 npm version patch
 git push
 ```
-
-
 
 ## Thanks 💚
 
