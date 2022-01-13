@@ -1,7 +1,11 @@
 const icons = document
   .querySelector("meta[name=icons]")
   .getAttribute("content")
-  .split(",");
+  .split(",")
+  .map((icon) => icon.split("-")[2])
+  .filter((v, i, a) => a.indexOf(v) === i);
+
+console.log(JSON.stringify(icons));
 
 const template = (style = "regular", color = "black_white", size = "s") => `
   <h1>H2D2 Shopicons</h1>
@@ -40,11 +44,10 @@ const template = (style = "regular", color = "black_white", size = "s") => `
   </fieldset>
   <div class="icons ${color}">
     ${icons
-      .filter((icon) => icon.endsWith(style))
       .map(
         (icon) => `<div class="icon">
-        <${icon} size="${size}"></${icon}>
-        <small>${icon.split("-")[1]}</small>
+        <shopicon-${style}-${icon} size="${size}"></shopicon-${style}-${icon}>
+        <small>${icon}</small>
       </div>`
       )
       .join("\n")}

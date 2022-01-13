@@ -10,7 +10,7 @@ function iconTemplate(style, icon) {
   const iconNormalized = normalize(icon);
   const iconLower = iconNormalized.toLowerCase();
   const className = `${iconNormalized}${style}`;
-  const webComponentName = `shopicon-${iconLower}-${styleLower}`;
+  const webComponentName = `shopicon-${styleLower}-${iconLower}`;
 
   const content = `/* GENERATED FILE - DON'T EDIT MANUALLY */
 import svg from "../../SVG/${style}/Shopicons_${style}_${icon}.svg";

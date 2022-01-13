@@ -17,7 +17,7 @@ We also publish our icons as web components for easy-use in your web project. Si
 
 ```html
 <!-- naming format -->
-<shopicon-[NAME]-[STYLE]></shopicon-[NAME]-[STYLE]>
+<shopicon-[STYLE]-[NAME]></shopicon-[STYLE]-[NAME]>
 ```
 
 Replace `[NAME]` with the your desired icon name. You find a [list of all icons here](https://www.h2d2.de/en/downloads/the-essential-ecommerce-iconset/). Note that special characters or whitespaces must be removed. Icon `Center-Justified` e.g. becomes `centerjustified`.
@@ -26,11 +26,11 @@ Replace `[STYLE]` with your icon style of choice. Possible values are `light`, `
 
 ```html
 <!-- examples -->
-<shopicon-bed-light></shopicon-bed-light>
-<shopicon-stars-bold></shopicon-stars-bold>
+<shopicon-light-bed></shopicon-light-bed>
+<shopicon-bold-stars></shopicon-bold-stars>
 ```
 
-_Caution: Web Components always need a separate closing-tag as seen above. Writing them self-closing (like this `<shopicon-bed-light />`) will cause issues. Don't do that._
+_Caution: Web Components always need a separate closing-tag as seen above. Writing them self-closing (like this `<shopicon-light-bed />`) will cause issues. Don't do that._
 
 **Sizes**
 
@@ -38,13 +38,13 @@ The icons come in four sizes which can be controlled via the `size` attribute on
 
 ```html
 <!-- tiny   (24px) DEFAULT -->
-<shopicon-search-regular size="s"></shopicon-search-regular>
+<shopicon-regular-search size="s"></shopicon-regular-search>
 <!-- small  (32px) -->
-<shopicon-search-regular size="m"></shopicon-search-regular>
+<shopicon-regular-search size="m"></shopicon-regular-search>
 <!-- medium (48px) -->
-<shopicon-search-regular size="l"></shopicon-search-regular>
+<shopicon-regular-search size="l"></shopicon-regular-search>
 <!-- large  (64px) -->
-<shopicon-search-regular size="xl"></shopicon-search-regular>
+<shopicon-regular-search size="xl"></shopicon-regular-search>
 ```
 
 **Colors**
@@ -53,7 +53,7 @@ Icons adopt the font color of the surrounding HTML. This way it's easy to fit th
 
 ```html
 <a href="#">
-  <shopicon-search-regular></shopicon-search-regular>
+  <shopicon-regular-search></shopicon-regular-search>
   SEARCH
 </a>
 <style>
@@ -75,18 +75,18 @@ For the web componets to work you need to include the associated JavaScript in y
 In practice we assume you would only use one (or two) icon styles at once, but its technically possible to use all styles in one page.
 
 ```
-https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.0/umd/light.js
-https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.0/umd/regular.js
-https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.0/umd/bold.js
-https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.0/umd/filled.js
+https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.2.0/umd/light.js
+https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.2.0/umd/regular.js
+https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.2.0/umd/bold.js
+https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.2.0/umd/filled.js
 ```
 
 Here an example for using the star icon in bold.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.0/umd/bold.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@h2d2/shopicons@1.2.0/umd/bold.js"></script>
 
-<shopicon-stars-bold></shopicon-stars-bold>
+<shopicon-bold-stars></shopicon-bold-stars>
 ```
 
 ### Include individual icons via NPM
@@ -106,7 +106,7 @@ import "@h2d2/shopicons/es/filled/heart";
 
 const html = `
   ...
-  <shopicon-stars-bold size="large"></shopicon-stars-bold>
+  <shopicon-bold-stars size="large"></shopicon-bold-stars>
 `;
 ```
 
