@@ -3,7 +3,7 @@ const icons = document
   .getAttribute("content")
   .split(",");
 
-const template = (style = "regular", color = "black_white", size="medium") => `
+const template = (style = "regular", color = "black_white", size = "s") => `
   <h1>H2D2 Shopicons</h1>
   <fieldset>
     <legend>Style</legend>
@@ -18,7 +18,7 @@ const template = (style = "regular", color = "black_white", size="medium") => `
   </fieldset>
   <fieldset>
     <legend>Größe</legend>
-    ${["tiny", "small", "medium", "large"]
+    ${["s", "m", "l", "xl"]
       .map(
         (s) =>
           `<label><input type="radio" name="size" value="${s}" ${
@@ -41,10 +41,12 @@ const template = (style = "regular", color = "black_white", size="medium") => `
   <div class="icons ${color}">
     ${icons
       .filter((icon) => icon.endsWith(style))
-      .map((icon) => `<div class="icon">
+      .map(
+        (icon) => `<div class="icon">
         <${icon} size="${size}"></${icon}>
         <small>${icon.split("-")[1]}</small>
-      </div>`)
+      </div>`
+      )
       .join("\n")}
   </div>
   <style>
@@ -75,7 +77,7 @@ function changeHandler() {
 }
 
 function addEvents() {
-  var radios = document.querySelectorAll('input[type=radio]');
+  var radios = document.querySelectorAll("input[type=radio]");
   Array.prototype.forEach.call(radios, function (radio) {
     radio.addEventListener("change", changeHandler);
   });
