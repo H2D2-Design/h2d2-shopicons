@@ -1,6 +1,6 @@
 # H2D2-Shopicons
 
-Essentials E-Commerce icon pack for free. Designed by H2D2.
+Essential E-Commerce icon pack for free. Designed by H2D2.
 Thanks for downloading!
 
 <p align="center">
@@ -162,6 +162,9 @@ The below code would increment the last digit of the version string (`1.0.2` > `
 npm version patch
 git push
 ```
+## Shopicons on Figma
+
+Download Shopicons as a [Figma library](https://www.figma.com/community/file/1066366818982322609) for easy re-use.
 
 ## Thanks 💚
 
