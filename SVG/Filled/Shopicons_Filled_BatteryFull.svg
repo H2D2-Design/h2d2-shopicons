@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
-  <title>Shopicons_Filled_BatteryFull</title>
-  <path d="M0,0H48V48H0Z" transform="translate(0 0)" style="fill: none"/>
-  <g>
-    <path d="M32,10V4H16v6H11V44H37V10Zm1,4V40H15V14h5V8h8v6Z" transform="translate(0 0)"/>
-    <rect x="18" y="17" width="12" height="20"/>
-  </g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48" xml:space="preserve"><style>.st3{display:none}</style><g id="Your_Icons"><path d="M0 0h48v48H0V0z" style="fill:none"/><path d="M35 9h-2V6a3 3 0 0 0-3-3H18a3 3 0 0 0-3 3v3h-2a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h22a3 3 0 0 0 3-3V12a3 3 0 0 0-3-3zm-3 6v24H16V15"/><path d="M30 37H18V17h12v20z"/></g></svg>

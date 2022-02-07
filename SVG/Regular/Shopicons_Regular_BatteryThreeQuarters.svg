@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48">
-  <title>Shopicons_Regular_BatteryThreeQuarters</title>
-  <path d="M0,0H48V48H0Z" transform="translate(0 0)" style="fill: none"/>
-  <g>
-    <path d="M32,10V4H16v6H11V44H37V10Zm1,4V40H15V14h5V8h8v6Z" transform="translate(0 0)"/>
-    <rect x="18" y="21" width="12" height="16"/>
-  </g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" style="enable-background:new 0 0 48 48" xml:space="preserve"><style>.st3{display:none}</style><g id="Your_Icons"><path d="M0-.004h48v48H0v-48z" style="fill:none"/><path d="M35 9.996h-3v-4a2 2 0 0 0-2-2H18a2 2 0 0 0-2 2v4h-3a2 2 0 0 0-2 2v30a2 2 0 0 0 2 2h22a2 2 0 0 0 2-2v-30a2 2 0 0 0-2-2zm-15-2h8v2h-8v-2zm13 32H15v-26h18v26z"/><path d="M30 36.996H18v-16h12v16z"/></g></svg>
