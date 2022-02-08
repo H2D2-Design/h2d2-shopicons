@@ -37,13 +37,13 @@ _Caution: Web Components always need a separate closing-tag as seen above. Writi
 The icons come in four sizes which can be controlled via the `size` attribute on the web component.
 
 ```html
-<!-- tiny   (24px) DEFAULT -->
+<!-- small (24px) DEFAULT -->
 <shopicon-regular-search size="s"></shopicon-regular-search>
-<!-- small  (32px) -->
+<!-- medium (32px) -->
 <shopicon-regular-search size="m"></shopicon-regular-search>
-<!-- medium (48px) -->
+<!-- large (48px) -->
 <shopicon-regular-search size="l"></shopicon-regular-search>
-<!-- large  (64px) -->
+<!-- extra large  (64px) -->
 <shopicon-regular-search size="xl"></shopicon-regular-search>
 ```
 
