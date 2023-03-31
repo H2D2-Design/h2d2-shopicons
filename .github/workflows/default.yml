@@ -11,7 +11,7 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
-      - uses: JS-DevTools/npm-publish@v3
+      - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
       - if: steps.publish.outputs.type != 'none'
