@@ -9,7 +9,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install
+      - run: npm install --legacy-peer-deps
       - run: npm run build
       - uses: JS-DevTools/npm-publish@v3
         with:
