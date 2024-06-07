@@ -11,7 +11,6 @@
     "type": "git",
     "url": "git+https://github.com/H2D2-Design/h2d2-shopicons.git"
   },
-  "type": "module",
   "author": "naltatis",
   "license": "Apache-2.0",
   "bugs": {
