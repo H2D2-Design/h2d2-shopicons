@@ -1,6 +1,6 @@
 # H2D2-Shopicons
 
-Essentials E-Commerce icon pack for free. Designed by H2D2.
+Essential E-Commerce icon pack for free. Designed by H2D2.
 Thanks for downloading!
 
 <p align="center">
@@ -37,13 +37,13 @@ _Caution: Web Components always need a separate closing-tag as seen above. Writi
 The icons come in four sizes which can be controlled via the `size` attribute on the web component.
 
 ```html
-<!-- tiny   (24px) DEFAULT -->
+<!-- small (24px) DEFAULT -->
 <shopicon-regular-search size="s"></shopicon-regular-search>
-<!-- small  (32px) -->
+<!-- medium (32px) -->
 <shopicon-regular-search size="m"></shopicon-regular-search>
-<!-- medium (48px) -->
+<!-- large (48px) -->
 <shopicon-regular-search size="l"></shopicon-regular-search>
-<!-- large  (64px) -->
+<!-- extra large  (64px) -->
 <shopicon-regular-search size="xl"></shopicon-regular-search>
 ```
 
@@ -162,6 +162,9 @@ The below code would increment the last digit of the version string (`1.0.2` > `
 npm version patch
 git push
 ```
+## Shopicons on Figma
+
+Download Shopicons as a [Figma library](https://www.figma.com/community/file/1066366818982322609) for easy re-use.
 
 ## Thanks 💚
 
