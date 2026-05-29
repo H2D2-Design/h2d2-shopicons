@@ -23,7 +23,9 @@ class ${className} extends HTMLElement {
   }
 }
 
-window.customElements.define("${webComponentName}", ${className})
+if (!window.customElements.get("${webComponentName}")) {
+  window.customElements.define("${webComponentName}", ${className});
+}
 `;
   return { content, webComponentName };
 }
