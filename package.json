@@ -18,12 +18,17 @@
     "url": "https://github.com/H2D2-Design/h2d2-shopicons/issues"
   },
   "homepage": "https://github.com/H2D2-Design/h2d2-shopicons#readme",
+  "overrides": {
+    "rollup-plugin-svgo": {
+      "svgo": "^3.3.2"
+    }
+  },
   "devDependencies": {
-    "@rollup/plugin-html": "^0.2.4",
-    "prettier": "^2.5.1",
-    "rollup": "^2.62.0",
-    "rollup-plugin-serve": "^1.1.0",
-    "rollup-plugin-svgo": "^1.1.0",
-    "rollup-plugin-uglify": "^6.0.4"
+    "@rollup/plugin-html": "^2.0.0",
+    "@rollup/plugin-terser": "^1.0.0",
+    "prettier": "^3.8.3",
+    "rollup": "^4.61.1",
+    "rollup-plugin-serve": "^3.0.0",
+    "rollup-plugin-svgo": "^2.0.0"
   }
 }
