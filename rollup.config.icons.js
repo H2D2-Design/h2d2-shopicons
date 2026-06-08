@@ -1,8 +1,10 @@
 import serve from "rollup-plugin-serve";
 import html from "@rollup/plugin-html";
 import svgo from "rollup-plugin-svgo";
-import { uglify } from "rollup-plugin-uglify";
-import { entryIconFiles, webComponentNames } from "./dist/meta.json";
+import terser from "@rollup/plugin-terser";
+import meta from "./dist/meta.json" with { type: "json" };
+
+const { entryIconFiles, webComponentNames } = meta;
 
 const watchMode = process.env.ROLLUP_WATCH === "true";
 
@@ -14,7 +16,7 @@ export default {
   },
   plugins: [
     svgo(),
-    uglify(),
+    terser(),
     html({
       title: "H2D2 Shopicons",
       meta: [

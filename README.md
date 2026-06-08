@@ -130,7 +130,7 @@ Available under [Apache license version 2.0](http://www.apache.org/licenses/LICE
 
 ### Development
 
-The web components are derived at build time from the icons in the SVG folder. Adding, removing or altering a SVG icon will automatically propagate to the web components. This is done on every push to GitHub via Actions. You can also test the generation locally.
+The web components are derived at build time from the icons in the SVG folder. Adding, removing or altering a SVG icon will automatically propagate to the web components when running the build locally. Every push to GitHub also runs the build via Actions to verify it works.
 
 Installing build environment
 
@@ -138,7 +138,7 @@ Installing build environment
 npm install
 ```
 
-_Note: You should have node v16 installed._
+_Note: You should have node v20 or newer installed._
 
 Generating Web Components (`/dist`) and optimized bundles (`/umd`, `/es`)
 
@@ -154,13 +154,13 @@ npm start
 
 ### Publishing
 
-Publishing is also done by the GitHub Actions pipeline in this repository. Therefore you must increment the package version and push the changes.
-
-The below code would increment the last digit of the version string (`1.0.2` > `1.0.3`) and push to GitHub. This triggers the creation of a new NPM package an also makes the new release available via the jsdelivr CDN.
+Publishing is done manually from your local machine. Increment the package version, build and publish to NPM. This also makes the new release available via the jsdelivr CDN.
 
 ```
 npm version patch
-git push
+npm run build
+npm publish
+git push --follow-tags
 ```
 ## Shopicons on Figma
 
